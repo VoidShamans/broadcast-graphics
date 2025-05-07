@@ -238,12 +238,12 @@ body {
 
 /* Animate out */
 @keyframes hideLeft {
-  0% {
+  from {
     clip-path: inset(0 0 0 0);
     opacity: 1;
   }
-  100% {
-    clip-path: inset(0 0 0 0);
+  to {
+    clip-path: inset(0 0 0 100%);
     opacity: 1;
   }
 }
